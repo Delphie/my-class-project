@@ -1,0 +1,200 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+  /* color: rgba(126,189,68,0.1) A stands for transparency
+*/
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+li {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+/* footer p{
+  font-size:16px;
+} */
+
+/*article header p{
+  font-style:italic;
+}
+*/
+
+header p {
+  font-style: italic;
+}
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+35 body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+}
+.containe r {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin:0 auto;
+  */
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  font-weight: bold;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 60px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+.post-header {
+  margin-bottom: 40px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding: 50px;
+}
+
+/*header{
+  background-color:#f7f7f7;
+}
+*/
+
+/*.first-li {
+  font-weight: bold;
+}
+*/
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+/*li:nth-child(odd) {
+  color: red;
+}
+
+/* (replace the 2 with any number not 1st or last,
+  you can replace with odd for every odd element or even
+}
+*/
+
+/*article p:last-child {
+  color: red;
+}
+*/
+A:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+A:visited {
+  color: #1098ad;
+  text-decoration: none;
+}
+A:hover {
+  color: orangered;
+  text-decoration: underline orangered;
+  font-weight: bold;
+}
+
+A:active {
+  background-color: black;
+  font-style: italic;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+/*
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+/*.text {
+  color: yellow;
+}
+/*last one of ones in the same position right click to find out which one wwill win out,
+*/
+
+/*8footer p {
+  color: green; !important;
+}
+!important will prooritize an elemenet but is not best practice use simpliear selectors
+*/
